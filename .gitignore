@@ -1,0 +1,17 @@
+# ignore compiled output
+
+dist/bundle*
+dist/*.eot
+dist/*.woff
+dist/*.woff2
+dist/*.ttf
+
+# ignore modules
+
+node_modules
+package-lock.json
+
+.env
+
+# Local Netlify folder
+.netlify

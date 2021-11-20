@@ -1,0 +1,22 @@
+{
+  "name": "remove-linebreaks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node build/build.js",
+    "build": "node build/build.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "esbuild-stylus-loader": "^0.3.2",
+    "stylus": "^0.55.0"
+  },
+  "devDependencies": {
+    "chokidar": "^3.5.2",
+    "esbuild": "^0.13.14",
+    "live-server": "^1.2.1"
+  }
+}
